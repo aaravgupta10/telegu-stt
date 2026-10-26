@@ -1,0 +1,610 @@
+[
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_00.wav",
+  "text": "ఐతే ఈ కొద్దిమంది ఆధ్యాత్మికతకోసం ముప్పైమూడు కోట్లమంది పస్తులుండి పశుప్రాయులై కుంగిపోవలసిందేనా",
+  "hyp_generated": "అయితే ఈ కొద్ది మంది అద్యత్మికత కోసం ముప్పై మూడు కోట్లమంది పస్తులుండి పసుప్రైలు కుంగిపోలు సిందేన",
+  "gen_seconds": 7.16,
+  "cer_generated": 0.1935483870967742,
+  "real_seconds": 8.18,
+  "length_ratio": 0.88,
+  "hyp_real": "అయితే ఈ కొద్ది మఉంది అద్యత్మి కతకోసం ముప్పై మూడు కోట్లమఉంది పస్తులుండి పషుప్రాయులై కుంగిపోలు సిందేనా",
+  "cer_real": 0.16129032258064516
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_01.wav",
+  "text": "శనివారం వరంగల్ రూరల్ జిల్లా నర్సంపేట పిఏసిఎస్ లో టిఆర్ఎస్ ప్యానల్నుంచి ఆరుగురు కాంగ్రెస్ ప్యానల్నుంచి ఏడుగురు విజయం సాధించారు",
+  "hyp_generated": "సినివారం వరెంగల్ రూరల్ జిల్ల నర్సంపేట పీయే సీయస్ లో టీయారిస్ పేనలనుంచి ఆరుగురు కాంద్రిస్పేనల్నుంచి ఈడుగురు విజయం సాదించారు",
+  "gen_seconds": 8.84,
+  "cer_generated": 0.216,
+  "real_seconds": 9.03,
+  "length_ratio": 0.98,
+  "hyp_real": "సినివారం వరంగల్ రూర్రల్ జిల్ల నర్శంపేట పీఏసి ఎస్లు టీయారిస్పేనల్నుంచి ఆరుగురు కాంగ్రెస్పెనల్లుంచి ఏడుగురు విజయం సాదించారు",
+  "cer_real": 0.2
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_02.wav",
+  "text": "కాగా పబ్జీ అడుతున్న సమయంలో ఖురేషీ పేల్చండి పేల్చండీ అంటూ అరిచాడని ఆ తర్వాత తన చేతిలోని మొబైల్ ఫోన్తో పాటు చెవిలోని ఇయర్ ఫోన్స్ విసిరి పారేశాడని ఖురేషీ సోదరి తెలిపింది",
+  "hyp_generated": "కాగా పబ్జీ అడుతున్న సమయములో కురేషి పెల్చండి పెేల్చండి అంటు అరిచాడనిఆ తరవాతఅతన చేతిులోని మొబైల్ ఫొంతో పాటు చివిలోని ఈర్ఫున్స్ విశిరిపారేశాడని కురేషి సూదరి తెలిపింది",
+  "gen_seconds": 13.4,
+  "cer_generated": 0.15060240963855423,
+  "real_seconds": 13.08,
+  "length_ratio": 1.02,
+  "hyp_real": "కాగా పబ్జి అడుతున సమైములు కురేషి పేల్చండి పెేల్చండి అంటూ అరిచడని ఆ తర్వాత తన చేతులోని మొబైల్ఫోంతో పాటు చివిలోని ఈర్ఫును స్విసిరి పరేశ్యడని కురేషీసోదరి తెలిపింది",
+  "cer_real": 0.1746987951807229
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_03.wav",
+  "text": "వాళ్ళు ముగ్గురూ నాకన్నా తెలివిగల వాళ్ళనీ సమర్థులనీ సరి అయిన అవకాశాలు వస్తే అద్భుతంగా రాణించే వారని నాకు నమ్మకం",
+  "hyp_generated": "వళ్డు ముగ్గురు నాకన్న తెలివిగలవాళ్ళని సమర్తులని సరేన అవకాశలు ఉస్తే అధ్బుతంగా రాణించేవారని నాకు నమకం",
+  "gen_seconds": 7.88,
+  "cer_generated": 0.18181818181818182,
+  "real_seconds": 7.51,
+  "length_ratio": 1.05,
+  "hyp_real": "వళ్డు ముగ్గురు నాకన్ణా తెలివిగలవాళ్ళని సమర్తులని సరియైిన అవకాషలు ఉస్తే అద్బుతంగా రాడించేవారని నాకు నమ్మకం",
+  "cer_real": 0.15454545454545454
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_04.wav",
+  "text": "ప్రతి రుణ ఒప్పందం రుణ గ్రహీత రుణదాతకు అసలుతో పాటు చెల్లించాల్సిన వడ్డీ రేటును తెల్పుతుంది",
+  "hyp_generated": "ప్రతిరుణ ఉప్పందం రుణ గ్రహీిత రుణదాతకు అసలుతో పాటువ చెల్లించాదుసిన వడ్డీర్ేటును తెలుపుతుంది",
+  "gen_seconds": 6.52,
+  "cer_generated": 0.10112359550561797,
+  "real_seconds": 6.26,
+  "length_ratio": 1.04,
+  "hyp_real": "ప్రతి రుణ ఉుప్పందం రుణగ్రహిత రుణదాతకు అసలుతో పాటూ చెల్లించలసిన వడ్డీర్యేటును తెలుపుతుంది",
+  "cer_real": 0.12359550561797752
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_05.wav",
+  "text": "ఈ పనులు పూర్తైన తర్వాత ఆయన ఎమ్మెల్యే మంచి లక్షణాలు ఉన్న అబ్బాయి చిత్ర షూటింగ్ లో పాల్లొంటారు",
+  "hyp_generated": "ఈ పనులు పూర్తైన తరువాత ఆయన ఎమ్మిర్లి మంచి లక్షనాదు ఉన్న పాయి చిత్ర షూటింగలో పాల్లుంటారు",
+  "gen_seconds": 6.28,
+  "cer_generated": 0.15217391304347827,
+  "real_seconds": 6.13,
+  "length_ratio": 1.02,
+  "hyp_real": "ఈ పనులు పూర్తైన తరువాత అయిన యెమ్మెల్లే మంచిలక్షనాలు ఉన్న అబ్బై చిత్ర షూటింగ్లో పాలుగొంటారు",
+  "cer_real": 0.15217391304347827
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_06.wav",
+  "text": "పైన చెప్పినట్లు వారి వారికి ఉన్న ఉత్సాహం మరియు శాస్త్ర పరిజ్ఞానంతో ఏ ప్రత్యేక అంశం మీద రచన సాగించినా అది మానవాళి జాగృతికి తోడ్పాటు అయింది",
+  "hyp_generated": "పైన చెప్పినట్లు వారివారికి ఉన్న ఉత్సాహం మరియు శాస్త్ర పరిగ్ణానంతూ ఏ ప్రత్ేక అంషమ్మీద రచన సాగించిన అది మానవా్డి జాగొృతికి తోడ్పాటు అయింది",
+  "gen_seconds": 10.04,
+  "cer_generated": 0.08759124087591241,
+  "real_seconds": 10.18,
+  "length_ratio": 0.99,
+  "hyp_real": "పైన చెప్పినెట్లు వారివారికి ఉన్న ఉత్సాహం మరియు శయాస్త్ర పరిగ్నానంతూ ఏ ప్రత్తేక అంశమ్మీద రచన సాకించిన అది మానవాళి జగృతికి తోడ్పాటు అయింది",
+  "cer_real": 0.08759124087591241
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_07.wav",
+  "text": "ఉదాహరణకు ఒక ట్యాంకును ఊహించుకోండి",
+  "hyp_generated": "ఉదాహరణకు ఒకటాన్కును ఈహించుకొండిఈ",
+  "gen_seconds": 3.48,
+  "cer_generated": 0.24242424242424243,
+  "real_seconds": 3.17,
+  "length_ratio": 1.1,
+  "hyp_real": "ఉదాహరణకు ఒక టాంకును ఈహించుకొండి",
+  "cer_real": 0.12121212121212122
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_08.wav",
+  "text": "దీంతో వంద రూపాయలు పైన వుండే టికెట్పై ఇరవై ఎనిమిది శాతం పన్ను పడుతోంటే వంద రూపాయల లోపు వున్న టికెట్లపై పద్ధెనిమిది శాతం పన్ను విధిస్తున్నారు",
+  "hyp_generated": "దీంతో వందరూపైలు పైన ఉండే టికెట్పై ఈరవై ఎనిమిది సాతం పన్ను పడుత ఉంటే వందరూపైల లోపు ఉన్న టికెట్ లపై పద్ధెనిమిది సాతం పన్ను విదిస్తున్నారు",
+  "gen_seconds": 10.68,
+  "cer_generated": 0.1223021582733813,
+  "real_seconds": 10.56,
+  "length_ratio": 1.01,
+  "hyp_real": "దీంతో వందరూపాయలు పైనం ఉండే టిక్కెట్పై ఈరవై ఎనిమిది సాతం పన్ను పడుతొంటే వంద రూపయలు లోపూ ఉన్న టికెట్ లపై పద్ధెనిమితి శాతం పన్ను విదిస్తున్నారు",
+  "cer_real": 0.1223021582733813
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_09.wav",
+  "text": "ఈ ఎన్నికలలో అసోం గణ పరిషత్ అధికారంలోకి వచ్చింది",
+  "hyp_generated": "ఈ ఎన్ని కలలో ఆసుం గణ పరిషత్ ఆధికారం లోకి వచ్చింది",
+  "gen_seconds": 4.28,
+  "cer_generated": 0.10638297872340426,
+  "real_seconds": 4.34,
+  "length_ratio": 0.99,
+  "hyp_real": "ఈ ఎన్నికలలో ఆసుం గణ పరిషత్ అధికారంలోకి వచ్చింది",
+  "cer_real": 0.0425531914893617
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_10.wav",
+  "text": "వాణిజ్య పంటలద్వారా వాళ్లకు ఎక్కువ ఆదాయం వస్తుంది ప్రతి ఒక్కరూ కూరగాయలు పండిస్తారు",
+  "hyp_generated": "వానిజ్య పంటలద్వార వాడకు ఎక్కువ ఆదాయం వస్తుంది ప్రతి ఒక్కరు కూరగాయలు పండిస్తారు",
+  "gen_seconds": 6.52,
+  "cer_generated": 0.07407407407407407,
+  "real_seconds": 6.33,
+  "length_ratio": 1.03,
+  "hyp_real": "వాణిద్య పంటలద్వార వాడ్ళకు ఎక్కువ ఆధాయం వస్తుందిప్రతి ఒక్కరు కూరగాయలు పండిస్తారు",
+  "cer_real": 0.08641975308641975
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_11.wav",
+  "text": "ఆ తరువాత తనలో తాను నవ్వుకొంటూ వచ్చి ఉయ్యాలపీట మీద కూర్చున్నారు",
+  "hyp_generated": "ఆ తరువాత తనలో తాను నవ్వుకొంటూ వచ్చి ఉయ్యాల పేటమేద కూర్చున్నారు",
+  "gen_seconds": 5.4,
+  "cer_generated": 0.06451612903225806,
+  "real_seconds": 4.96,
+  "length_ratio": 1.09,
+  "hyp_real": "ఆ తరువాత తనలోతాను నవవ్వుకుంటూ వచ్చి ముయ్యాల పేటమేదు కూర్చున్నారు",
+  "cer_real": 0.16129032258064516
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_12.wav",
+  "text": "వృత్తుల్లో ఉన్న వాళ్లు పెట్టుబడి పెట్టలేక ఇతరుల వద్ద పనిచేస్తున్న వాళ్లకు పెట్టుబడి అందజేసి సొంతంగా షాపులు పెట్టుకునేట్టు చేస్తామని ఈటల రాజేందర్ తెలిపారు",
+  "hyp_generated": "ృత్తుల్లో ఉన్నవాళ్ళు పెట్టుబడి పెట్టలేక ఈతరుడ వద్ద పనిచేస్టున్న వళ్ళలకు పెట్టుబడి ఆంద జేసి సొంతంగా శాపులు పెట్టుకు నెట్టు చేస్తామని ఈటల రాజెందర్ తెలిపారు",
+  "gen_seconds": 11.8,
+  "cer_generated": 0.0915032679738562,
+  "real_seconds": 12.29,
+  "length_ratio": 0.96,
+  "hyp_real": "వృత్తుల్లో ఉన్నవాడ్ళు పెట్టుబడి పెట్టలేక ఈతొరులవద్ధ పనిచేస్తున్న వాళ్ళకు పెట్టుబడి అందజేసి సొంతంగా శాపులు పెట్టుకునెట్టు చేస్తామని ఈటర రాజేందరు తెలిపారు",
+  "cer_real": 0.0784313725490196
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_13.wav",
+  "text": "ఇటువంటి వార్తా పత్రిక కథనాలను మీరు చదివి ఉంటారు",
+  "hyp_generated": "ఈటువంటి వార్తా పత్రిక కధనానను నేరు చదివి ఉంటారు",
+  "gen_seconds": 4.12,
+  "cer_generated": 0.10638297872340426,
+  "real_seconds": 4.34,
+  "length_ratio": 0.95,
+  "hyp_real": "ఈటువంటి వార్తా పత్రిక కధనాలను మీరు చదివి ఉంటారు",
+  "cer_real": 0.0425531914893617
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_14.wav",
+  "text": "అన్న ఆజ్ఞను వెంటనే అమలుచేశాడు లక్ష్మణుడు పూలతో నిండిన ఆ లతను ధరించి సుగ్రీవుడు తిరిగి యుద్ధానికి సన్నద్ధమయ్యాడు కిష్కింధకు ప్రయాణమయ్యారందరూ",
+  "hyp_generated": "అన్న ఆగ్నను వెంటనే ఆమలు చేశాడు లక్ష్మనుడుపూలతో నెండిన ఆలతను దహరించి సుగ్రీవుడు తిరిగి యుద్ధ అనికి సన్నధ్ధమయ్యాడుకిష్కిందకు ప్రయాణమయ్యార అందరు",
+  "gen_seconds": 11.48,
+  "cer_generated": 0.12949640287769784,
+  "real_seconds": 10.63,
+  "length_ratio": 1.08,
+  "hyp_real": "ఆన్న ఆగ్నను వెంటనే ఆమలు చేసాడు లక్ష్మనుడు పూలతో నెండిన ఆలతను దరించి సుగ్రీవుడు తిరిగి యుద్ధనికి సాన్నద్ధమయయ్యాడు కిష్కిందకు ప్రయాణమయ రందరు",
+  "cer_real": 0.12949640287769784
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_15.wav",
+  "text": "త్వరలోనే ధనధవుడి వ్రణం నయమయిపోయింది అతను లేచిన రోజునే యుద్ధరంగానికి బయలుదేరి మోహనుణ్ణి విలు యుధ్ధానికి ఆహ్వానించాడు ఈ యుధ్ధంలో ధనధవుడు విసరిన మొదటి బాణం మోహనుడికి తగలలేదు కాని రెండవది మోహనుడి ఎడమ చేతికి బాణం పట్టిన చేతికి తగిలింది మూడవ బాణానికి మోహనుడి కుడికన్ను పోయింది నాలుగవ బాణానికి ధవణుడు మోహనుడి కాలిమడమను బలంగా కొట్టాడు",
+  "hyp_generated": "త్వరనం నయుమయిపోయిందిఅతను లేచిన రోజనే యుద్దరెంధానికి బైగుదేరి మోహనున్ని వీలురి యుద్ధానికి ఆహ్మానించాడుఈదంలో బదటిబానం మోహనుడికి తగల లేదు కానీ రెండవది మోహనుడి ఎడమ చేతికి బానం పట్టినర చేతికి తగిలిందిమోహనుడి కుడికఅన్ను పోయింది నానుగువి బానానికి దవనుడు మోహనుడి కానిమడమను బలంగా కొట్టాడు",
+  "gen_seconds": 24.12,
+  "cer_generated": 0.25766871165644173,
+  "real_seconds": 26.2,
+  "length_ratio": 0.92,
+  "hyp_real": "త్వరయలోని ధనధవుడి వ్రణం నయుమయ పోయిందిఅతను లేచిన రోజినే యుద్ధరెంగానికి బైలదేది మోహనున్న విలు యుద్ధానికి ఆఫ్వానించాడుఈ యుద్ధంలో దనదవుడు విసరిణ మొదటిబానం మోహనుడికి తగల లేదుకానీ రెండవది మోహనుడి ఏడమ చేతికి బానం పట్టిన చేతికి తగలిందిమోడవ బానానికి మహనుడి కుడికన్ను పోయ్ిందినాలుగువి బానానికి దవనుడు మోహనుడి కాలిమడుమను బలంగా కొట్టాడు",
+  "cer_real": 0.12269938650306748
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_16.wav",
+  "text": "స్వేఛ్చాయుతమైనటువంటి మరియు దాపరికానికి తావు ఉండనటువంటి ఇండో పసిఫిక్ యొక్క పురోగతిలో గ్లోబల్ సౌథ్ దేశాల అభిప్రాయాలను బిగ్గరగా వినిపించడంలో మన అందరికి ఉమ్మడి హితం ఒనగూరుతుంది",
+  "hyp_generated": "స్వీచా యుతై నట్వంటి మరియు దాపరికానికి తాగూ ఉండ నట్ువంటి ఇందో పససిఫిక్ యొక్క పురోగతిలో గ్లోబెల్ సౌద్యసాల అబి ప్రాయాలను బిగ్గరిగా వినపించడంలో మన అందరికి ఉమ్వడి హితం ఒనగూరుతుంది",
+  "gen_seconds": 15.16,
+  "cer_generated": 0.13953488372093023,
+  "real_seconds": 13.9,
+  "length_ratio": 1.09,
+  "hyp_real": "స్వీచా ఇతొమై నటువంటి మరియు దాపరికానికి తవు ఉండనటు వంటి ఇండో పసిఫిక్ యొక్క పొురోగ తిలో గ్లోబెల్సౌ ద్ దేషాల అభిప్రాయాలను బిగ్గరిగా వినిపించుడంలో మనందరికి ఉమ్మడి హితం ఒనగూరుతుంది",
+  "cer_real": 0.11627906976744186
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_17.wav",
+  "text": "ఆంధ్రప్రదేశ్లోని శ్రీకాకుళం జిల్లాలో కరోనా వైరస్ లక్షణాలున్న వారిని ఉంచేందుకు ఏర్పాటు చేసిన క్వారంటైన్ కేంద్రాలలో పౌష్టికాహారం అందించాలని అవసరమైన వారికి స్వాబ్ నమూనాలు సేకరించి పరీక్షలు నిర్వహించాలని కోవిడ్ పంతొమ్మిది జిల్లా ప్రత్యేకాధికారి డాక్టర్ ఎం ఎం నాయక్ అధికారులను ఆదేశించారు",
+  "hyp_generated": "ఆంధ్ర ప్రదేషలోని స్రీకాపునం జిల్లాలో కరోనవైదం చేందుకు ఏరిపాటి చేస్సిన క్వారెంటైన్ కేంద్రాలలు పౌస్టికాహారం అందించాలని అవసరమైనవారికి స్వాబ్నము నాలు సేకరించి పరిీక్షల్లు నిర్వైించాలని కోవిడ్ పంతమిది జిల్లా ప్రత్యేక అధికారి డాప్తర్ ఎమ్మెన్నాయిక్ అదికారిలను ఆది సించారు",
+  "gen_seconds": 18.68,
+  "cer_generated": 0.23404255319148937,
+  "real_seconds": 19.16,
+  "length_ratio": 0.97,
+  "hyp_real": "ఆంధ్ర ప్రిదిషులోనీ స్రీకాకులం జిల్లాలో కరోన వైరసు లెక్షనాలు నవారిని ఉంచేందుకు ఎరి పాటు చేసిన క్వారింటెన్ కేంద్రాలలో పోస్టికహారం అందించాలని అవసరిమైనవారికి స్వాబ్ నమునలు సేకరించీ పరిక్షలు నిర్వైహించాలని కోవిడ్ పంతొమిది జిల్లా ప్రత్యేక అజికారి డొోక్టరి ఎమ్మెం నాయిక్ అజికారులను ఆదీ సించారు",
+  "cer_real": 0.16666666666666666
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_18.wav",
+  "text": "ఇది వారి చదువుకి నష్టం చేస్తోంది",
+  "hyp_generated": "ఇదివారి చదూకి నశ్ట్రం చేస్తోంది",
+  "gen_seconds": 2.84,
+  "cer_generated": 0.21875,
+  "real_seconds": 2.49,
+  "length_ratio": 1.14,
+  "hyp_real": "ఇదివారి చదూవకి నశ్ట్రం చేస్తోంది",
+  "cer_real": 0.1875
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_19.wav",
+  "text": "ఆయన మొదటి గ్రంధం శివాజీ మహారాజు చరిత్ర",
+  "hyp_generated": "ఆయన మొదటి గ్రందం సివాజీ మహారాజు చెరిత్రా",
+  "gen_seconds": 3.64,
+  "cer_generated": 0.10526315789473684,
+  "real_seconds": 3.51,
+  "length_ratio": 1.04,
+  "hyp_real": "ఆయన మొదటి గ్రందం సివాజీ మహారాజు చెరిత్ర",
+  "cer_real": 0.07894736842105263
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_20.wav",
+  "text": "ప్రభువులవారి స్వస్థత తెలుసుకుందామని అన్నాడు పాపయారాధ్యులు",
+  "hyp_generated": "క్రబు వినవారి స్వస్తతి తెలిసుకుందావని అన్నాయడు పాపైారాధ్యులు",
+  "gen_seconds": 4.28,
+  "cer_generated": 0.19298245614035087,
+  "real_seconds": 4.0,
+  "length_ratio": 1.07,
+  "hyp_real": "ప్రబులువారి స్వస్తత తెల్సుకుందామని అన్నడు పాపై్య రాజ్యులు",
+  "cer_real": 0.17543859649122806
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_21.wav",
+  "text": "హెచ్ డి బి ఫైనాన్స్ సర్వీసెస్ నుండి ఏదైన బీమా పాలసీ కోసం నష్ట మూల్యాంకనం చేసేందుకు సాధారణంగా ఎంత సమయం పడుతుంది",
+  "hyp_generated": "హెచ్ డీబీ ఫైనాంనస్ సర్విసస్ నుండి ఏదైన బీమా పాదు సీ కో్సం నష్ట మూర్యంకనం చే సెందుకు సాధరిణంగా యంతసమయం పొడుతుంది",
+  "gen_seconds": 8.68,
+  "cer_generated": 0.18181818181818182,
+  "real_seconds": 8.12,
+  "length_ratio": 1.07,
+  "hyp_real": "హెజ్ డీబీ ఫైనాం్ సోర్విసుస్ నుండి ఏదైిన బీమ పోలుసీ కో్సం నష్టముూల్యంకణం చేసేందుకు సాధారణగా యంతసమయంపడుతుంది",
+  "cer_real": 0.20909090909090908
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_22.wav",
+  "text": "వీటితో మొత్తంగా రాష్ట్రంలో కరోనా బాధితుల సంఖ్య పద్దెనిమిది వేల ఐదు వందల డబ్బై కి పెరిగింది",
+  "hyp_generated": "వీటితో మొత్తంగా రాష్టరంలో కరొణ బాద్ితలు సంఖ్యా పద్జనిమిది వేల అయిదు వందర డెబ్బైకి పెరిగింది",
+  "gen_seconds": 5.64,
+  "cer_generated": 0.18888888888888888,
+  "real_seconds": 5.68,
+  "length_ratio": 0.99,
+  "hyp_real": "వీటితో మొత్తంగా రాష్టరంలో కొరణబాదిుతుల సంక్య పజ్జెనిమిది వేలా అయిదు వందలె డెబ్బైకి పెరిగింది",
+  "cer_real": 0.2
+ },
+ {
+  "kind": "valid",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/valid_23.wav",
+  "text": "టీ గార్డెన్ ఎక్స్ప్రెస్",
+  "hyp_generated": "ీగార్డెన్ ఎక్స్ప్రస్",
+  "gen_seconds": 1.72,
+  "cer_generated": 0.13043478260869565,
+  "real_seconds": 1.13,
+  "length_ratio": 1.52,
+  "hyp_real": "ీగార్డన్ ఎక్స్ప్రస",
+  "cer_real": 0.21739130434782608
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_00_v0.wav",
+  "text": "నమస్కారం మీరు ఎలా ఉన్నారు",
+  "hyp_generated": "నమస్కరం మీరు ఎల ఉన్నారు",
+  "gen_seconds": 2.6,
+  "cer_generated": 0.08
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_00_v1.wav",
+  "text": "నమస్కారం మీరు ఎలా ఉన్నారు",
+  "hyp_generated": "నమస్కారం మీరి ఎలా ఉన్నారు",
+  "gen_seconds": 2.84,
+  "cer_generated": 0.04
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_01_v0.wav",
+  "text": "నేను ఈ రోజు ఉదయం ఆరు గంటలకు లేచాను",
+  "hyp_generated": "నేను ఈ రోజు ఉదేం ఆరుకొంటలకు లేచాను",
+  "gen_seconds": 3.24,
+  "cer_generated": 0.08823529411764706
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_01_v1.wav",
+  "text": "నేను ఈ రోజు ఉదయం ఆరు గంటలకు లేచాను",
+  "hyp_generated": "నేను ఈ రోజు వదయం ఆరు గంటల కులేచాను",
+  "gen_seconds": 3.24,
+  "cer_generated": 0.08823529411764706
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_02_v0.wav",
+  "text": "హైదరాబాద్ తెలంగాణ రాష్ట్ర రాజధాని",
+  "hyp_generated": "అయిదురబ తెలంగాన రాష్ట్వ రాజధాని",
+  "gen_seconds": 3.16,
+  "cer_generated": 0.30303030303030304
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_02_v1.wav",
+  "text": "హైదరాబాద్ తెలంగాణ రాష్ట్ర రాజధాని",
+  "hyp_generated": "హైద్ రబాత్ తెలం గాణ రాష్ట్ర రాజదానిర",
+  "gen_seconds": 3.24,
+  "cer_generated": 0.21212121212121213
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_03_v0.wav",
+  "text": "దయచేసి మీ మొబైల్ ఫోన్ ఆఫ్ చేయండి",
+  "hyp_generated": "దై చేసీమీ మొబైల్ఫోన్ ఆఫ్ చేయండి",
+  "gen_seconds": 3.0,
+  "cer_generated": 0.15625
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_03_v1.wav",
+  "text": "దయచేసి మీ మొబైల్ ఫోన్ ఆఫ్ చేయండి",
+  "hyp_generated": "దయ చేసి మీ మొబైల్ఫోన్ ఆఫ్ చేయంది",
+  "gen_seconds": 3.08,
+  "cer_generated": 0.09375
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_04_v0.wav",
+  "text": "కంప్యూటర్ మరియు ఇంటర్నెట్ లేకుండా ఈ రోజుల్లో పని చేయడం కష్టం",
+  "hyp_generated": "కంప్ూటర్ మరియు ఇంటరన్నెట్లే కుండ ఈ రోజిలలో పనిచేడం కష్టం",
+  "gen_seconds": 4.6,
+  "cer_generated": 0.15
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_04_v1.wav",
+  "text": "కంప్యూటర్ మరియు ఇంటర్నెట్ లేకుండా ఈ రోజుల్లో పని చేయడం కష్టం",
+  "hyp_generated": "కంప్యూటర్ మరియు ఈఇంతర్నెట్ లైకుండ ఈ రోజుల్లో పనిచేఏడం కశ్టం",
+  "gen_seconds": 5.0,
+  "cer_generated": 0.11666666666666667
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_05_v0.wav",
+  "text": "వర్షం పడుతున్నందున పిల్లలు ఇంట్లోనే ఆడుకుంటున్నారు",
+  "hyp_generated": "వష్షయం పొడతమ్నందున పిల్లలు ఇంట్లోనే ఆడుకుంటున్నారు",
+  "gen_seconds": 3.72,
+  "cer_generated": 0.12
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_05_v1.wav",
+  "text": "వర్షం పడుతున్నందున పిల్లలు ఇంట్లోనే ఆడుకుంటున్నారు",
+  "hyp_generated": "వర్షం పడతున్ నందన పిల్లలు ఇంట్లోనే ఆడుకుంటర్నారు",
+  "gen_seconds": 3.8,
+  "cer_generated": 0.1
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_06_v0.wav",
+  "text": "గోదావరి నది తీరాన ఉన్న ఆ చిన్న గ్రామంలో సూర్యాస్తమయం చాలా అందంగా ఉంటుంది",
+  "hyp_generated": "గోదవరి నది తీరాన ఉన్న ఆ చిన్న గ్రమములు సూర్యస్ తొమయం చాల అందంగా ఉంటుంది",
+  "gen_seconds": 6.04,
+  "cer_generated": 0.1111111111111111
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_06_v1.wav",
+  "text": "గోదావరి నది తీరాన ఉన్న ఆ చిన్న గ్రామంలో సూర్యాస్తమయం చాలా అందంగా ఉంటుంది",
+  "hyp_generated": "గోదావరి నది తీరాన ఉన్న ఆ చిన్న గ్రామంలో సూర్యస్తమయన్చాలా అందంగా ఉంపెంది",
+  "gen_seconds": 6.2,
+  "cer_generated": 0.06944444444444445
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_07_v0.wav",
+  "text": "మీ పేరు ఏమిటి",
+  "hyp_generated": "మీ పేరు ఏమిటి",
+  "gen_seconds": 1.8,
+  "cer_generated": 0.0
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_07_v1.wav",
+  "text": "మీ పేరు ఏమిటి",
+  "hyp_generated": "మీ పేరు ఏమిటి",
+  "gen_seconds": 1.8,
+  "cer_generated": 0.0
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_08_v0.wav",
+  "text": "నేను రేపు విజయవాడ వెళ్తున్నాను",
+  "hyp_generated": "నేను రేపు విజేవాడ వెలుతున్నాను",
+  "gen_seconds": 2.76,
+  "cer_generated": 0.1
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_08_v1.wav",
+  "text": "నేను రేపు విజయవాడ వెళ్తున్నాను",
+  "hyp_generated": "నేను రేపు విజేవాడ వెళ్తున్నాను",
+  "gen_seconds": 2.68,
+  "cer_generated": 0.03333333333333333
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_09_v0.wav",
+  "text": "అమ్మ వంటగదిలో రుచికరమైన భోజనం తయారు చేస్తోంది",
+  "hyp_generated": "అమ్మో వంటదతిలు రుచికరమైిన బోజనం తయరు చేస్తోంది",
+  "gen_seconds": 3.88,
+  "cer_generated": 0.15555555555555556
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_09_v1.wav",
+  "text": "అమ్మ వంటగదిలో రుచికరమైన భోజనం తయారు చేస్తోంది",
+  "hyp_generated": "అమ్మ వంట గరదిలో వృ్చికరమైన బోజణం తయారు చేస్తోంది",
+  "gen_seconds": 4.28,
+  "cer_generated": 0.15555555555555556
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_10_v0.wav",
+  "text": "దయచేసి ఒక్క నిమిషం వేచి ఉండండి",
+  "hyp_generated": "దైచేసి ఒక్క నిమిషం వేచి ఉుండండి",
+  "gen_seconds": 2.68,
+  "cer_generated": 0.06666666666666667
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_10_v1.wav",
+  "text": "దయచేసి ఒక్క నిమిషం వేచి ఉండండి",
+  "hyp_generated": "దయ చేసి ఒక్క నిమిషం బేచి ఉందంది",
+  "gen_seconds": 2.76,
+  "cer_generated": 0.13333333333333333
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_11_v0.wav",
+  "text": "ఈ రోజు వాతావరణం చాలా చల్లగా ఉంది",
+  "hyp_generated": "ఈ రోజు వాతవణం చాల చల్లగా ఉంది",
+  "gen_seconds": 3.0,
+  "cer_generated": 0.09375
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_11_v1.wav",
+  "text": "ఈ రోజు వాతావరణం చాలా చల్లగా ఉంది",
+  "hyp_generated": "ఈ రోజు వాతావరణం చాలా చల్లగా ఉంది",
+  "gen_seconds": 3.0,
+  "cer_generated": 0.0
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_12_v0.wav",
+  "text": "భారతదేశం వివిధ భాషలు సంస్కృతులు సంప్రదాయాలు కలిగిన విశాలమైన దేశం ఇక్కడ ప్రతి రాష్ట్రానికి తనదైన ప్రత్యేకత ఉంది",
+  "hyp_generated": "బార్తదేషం వివిద బాషలు సంస్కృతులు సంప్రధాయలు కలిగిన విషాలమైన దేషం ఇక్కడ ప్రత్ేదాష్టరానికి తనదైన ప్రత్ేకత ఉంది",
+  "gen_seconds": 9.0,
+  "cer_generated": 0.12727272727272726
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_12_v1.wav",
+  "text": "భారతదేశం వివిధ భాషలు సంస్కృతులు సంప్రదాయాలు కలిగిన విశాలమైన దేశం ఇక్కడ ప్రతి రాష్ట్రానికి తనదైన ప్రత్యేకత ఉంది",
+  "hyp_generated": "వారత దేశం వివిద బాషలు సంస్కృతలు సంప్రదాయాలు కలిగిన విశారమైన దేసం ఇక్కడ ప్రతిరాశ్రానికి తనధైన ప్రత్యేకత ఉంది",
+  "gen_seconds": 9.32,
+  "cer_generated": 0.10909090909090909
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_13_v0.wav",
+  "text": "విద్యార్థులు ప్రతిరోజూ క్రమం తప్పకుండా చదివితే పరీక్షల్లో మంచి ఫలితాలు సాధించగలరు",
+  "hyp_generated": "విద్ధర్తులు ప్రతిరోజు క్రమం తప్పకుండా చెదివితి పరిక్షలలో మంచి ఫలితాలు సాదించ గలరు",
+  "gen_seconds": 6.04,
+  "cer_generated": 0.12345679012345678
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_13_v1.wav",
+  "text": "విద్యార్థులు ప్రతిరోజూ క్రమం తప్పకుండా చదివితే పరీక్షల్లో మంచి ఫలితాలు సాధించగలరు",
+  "hyp_generated": "విద్యార్దులు ప్రతిలోజు క్రమన్ తప్పకుండా చదరితే పరీక్షలలో మంచి ఫనితాలు సాధించగనరు",
+  "gen_seconds": 6.04,
+  "cer_generated": 0.12345679012345678
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_14_v0.wav",
+  "text": "డాక్టర్ గారు మందులు రోజుకు రెండు సార్లు వేసుకోమని చెప్పారు",
+  "hyp_generated": "డక్టర్ గారు మందులు రోజుకు రెండుసార్లు వేసుకోమని చెప్పారు",
+  "gen_seconds": 3.96,
+  "cer_generated": 0.034482758620689655
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_14_v1.wav",
+  "text": "డాక్టర్ గారు మందులు రోజుకు రెండు సార్లు వేసుకోమని చెప్పారు",
+  "hyp_generated": "దాప్తర్గారు మాంతలు రోజుకు రెండ సార్వి వేసుకోమెని చెప్పారు",
+  "gen_seconds": 4.2,
+  "cer_generated": 0.1896551724137931
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_15_v0.wav",
+  "text": "ఈ సినిమా నాకు చాలా నచ్చింది",
+  "hyp_generated": "ఈ సినిమనా కుచ్చాలా నర్చింది",
+  "gen_seconds": 2.44,
+  "cer_generated": 0.2222222222222222
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_15_v1.wav",
+  "text": "ఈ సినిమా నాకు చాలా నచ్చింది",
+  "hyp_generated": "ఈ సినిమానాకు చాలా నర్చింది",
+  "gen_seconds": 2.36,
+  "cer_generated": 0.07407407407407407
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_16_v0.wav",
+  "text": "ఆమె ప్రతి ఉదయం పార్కులో నడకకు వెళ్తుంది",
+  "hyp_generated": "ఆమె ప్రతివుదేం పర్కులో నడకుకు విల్తుంది",
+  "gen_seconds": 3.16,
+  "cer_generated": 0.1794871794871795
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_16_v1.wav",
+  "text": "ఆమె ప్రతి ఉదయం పార్కులో నడకకు వెళ్తుంది",
+  "hyp_generated": "ఆమె ప్రతి ఉదేయం పారకులో నదకకు వెలళ్తుంది",
+  "gen_seconds": 3.16,
+  "cer_generated": 0.10256410256410256
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_17_v0.wav",
+  "text": "రైతులు పంటలకు నీరు పెట్టడానికి బోరు బావులను ఉపయోగిస్తున్నారు",
+  "hyp_generated": "రైతులు పంటలకు నీరు పెట్టడానికి బోరు బోవులను ఉపైు విస్తున్నారు",
+  "gen_seconds": 4.52,
+  "cer_generated": 0.08333333333333333
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_17_v1.wav",
+  "text": "రైతులు పంటలకు నీరు పెట్టడానికి బోరు బావులను ఉపయోగిస్తున్నారు",
+  "hyp_generated": "రైతులు పంతలపు నేరు పెట్టడానికి బోరు బావలను ఉపై ఒగిస్చున్నారు",
+  "gen_seconds": 4.76,
+  "cer_generated": 0.13333333333333333
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_18_v0.wav",
+  "text": "ఎలక్ట్రిక్ కార్లు పర్యావరణానికి చాలా మంచివి",
+  "hyp_generated": "ఎలట్ట్రికకార్లు పర్యావరణానికి చాలవమంచివి",
+  "gen_seconds": 3.48,
+  "cer_generated": 0.11627906976744186
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_18_v1.wav",
+  "text": "ఎలక్ట్రిక్ కార్లు పర్యావరణానికి చాలా మంచివి",
+  "hyp_generated": "ఏలక్తి కార్లు పరియావరణానికి చాలంమంచివి",
+  "gen_seconds": 3.72,
+  "cer_generated": 0.20930232558139536
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_19_v0.wav",
+  "text": "ధన్యవాదాలు మళ్ళీ కలుద్దాం",
+  "hyp_generated": "దన్నివాదాలు మళ్ళి కదుద్దం",
+  "gen_seconds": 2.6,
+  "cer_generated": 0.24
+ },
+ {
+  "kind": "sentence",
+  "wav": "/home/ec2-user/SageMaker/tts/runs/telugu_full/eval_15000/sent_19_v1.wav",
+  "text": "ధన్యవాదాలు మళ్ళీ కలుద్దాం",
+  "hyp_generated": "దన్యవాదాలు మళ్ళీ కలద్ధం",
+  "gen_seconds": 2.84,
+  "cer_generated": 0.16
+ }
+]
