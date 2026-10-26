@@ -1,0 +1,2 @@
+# printed on notebook `rag` (transcript user message #143, 2026-10-18T05:57:12.928Z); the manifest format is {path, duration, transcript}
+{'path': '/home/ec2-user/SageMaker/tts/data/pilot/wavs/IISc_SYSPINProject_te_m_AGRI_02122.wav', 'duration': 9.079, 'transcript': 'వెల్లటూరు, కిష్టాపురం, అడ్లూరు, నెమలిపురి గ్రామాలకు రాకపోకలు నిలిచిపోగా గ్రామ సమీపాల్లోని పంట పొలాలు నీట మునిగాయి.'}

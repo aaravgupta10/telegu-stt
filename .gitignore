@@ -1,0 +1,39 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments & portable Python runtimes
+.venv/
+venv/
+env/
+ENV/
+demo_live/.venv/
+python/
+demo_bundle/TeluguTTS_Demo/python/
+demo_bundle/TeluguTTS_Demo/TeluguTTS_Demo/
+
+# Model weights exceeding GitHub 100MB limit
+# The fine-tuned model checkpoint (~1.34 GB) must be stored separately (e.g. S3 / Hugging Face)
+*.safetensors
+*.pt
+*.bin
+*.pth
+*.onnx
+
+# Archive files (unpacked folders are tracked directly)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Runtime logs
+*.log
+*.log.err
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

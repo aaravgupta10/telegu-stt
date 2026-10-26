@@ -1,0 +1,58 @@
+{
+ "_source": "IISc_SYSPINProject_Telugu_Male_Spk001_HC_Transcripts.json (extracted from the SYSPIN Telugu male archive on 2026-10-17; the full file has 21463 entries; this is the header and the first 10 entries, verbatim)",
+ "MetaData": {
+  "Title": "IISc SYSPIN Project Transcripts",
+  "Copyright": "IISc",
+  "Contributers": "SYSPIN Project Language Experts"
+ },
+ "SpeakersMetaData": {
+  "Language": "Telugu",
+  "Gender": "Male",
+  "Age": 63,
+  "Experience": "25 Years",
+  "Languages known": "Telugu, Kannada",
+  "Mother tongue": "Telugu"
+ },
+ "first_10_transcripts": {
+  "IISc_SYSPINProject_te_m_GENE_02044": {
+   "Transcript": "ఇంపెడెన్స్ విశ్లేషణ ఉపయోగించి బయోమెట్రిక్ సమాచారాన్ని కొలిచే స్మార్ట్ స్కేల్స్ అడుగుల ద్వారా తేలికపాటి విద్యుత్ ప్రేరణలను పంపుతాయి. ",
+   "Domain": "GENERAL"
+  },
+  "IISc_SYSPINProject_te_m_EDUC_02060": {
+   "Transcript": "\"అనుష్కతో కలిసి మరీన్ పరేడ్ బీచ్లో బెంచ్పై కూర్చొని ఆస్వాదించిన క్షణాలు జీవితాంతం గుర్తుండి పోతాయి\" అని బిసిసిఐ టివికి ఇచ్చిన ఇంటర్వ్యూలో కోహ్లి తెలిపాడు.",
+   "Domain": "EDUCATION"
+  },
+  "IISc_SYSPINProject_te_m_BOOK_00567": {
+   "Transcript": "అందువలన అన్ని పఠాలను ఒకే పద్థతిలో బోధించడం సరియైనది కాదు.",
+   "Domain": "BOOKS"
+  },
+  "IISc_SYSPINProject_te_m_BOOK_05026": {
+   "Transcript": "సహజీవనం, మభ్యపెట్టడం గురించి మీ ఉపాధ్యాయుల్ని అడిగి లేదా అంతర్జాలం నుండి అదనపు వివరాలు సేకరించి మీ పాఠశాల సింపోజియం/ సెమినార్లో చర్చించండి.",
+   "Domain": "BOOKS"
+  },
+  "IISc_SYSPINProject_te_m_BOCU_01055": {
+   "Transcript": "సుసంపన్నమైన వారసత్వాన్ని, జాతీయ భిన్న సంస్కృతిని ప్రతి పౌరుడు కాపాడాలి.",
+   "Domain": "RUNNING TEXT FROM BOOK"
+  },
+  "IISc_SYSPINProject_te_m_POLI_01666": {
+   "Transcript": "లోక్తాంత్రిక్ మోర్చా పేరుతో ఆరు పార్టీలు కలిసి రాజస్థాన్లో మతోన్మాద బీజేపీకి వ్యతి రేకంగా పోటీ చేస్తున్నాయి.",
+   "Domain": "POLITICS"
+  },
+  "IISc_SYSPINProject_te_m_BOOK_00910": {
+   "Transcript": "రత్తమ్మకి ఆ మాట అర్ధం కాలేదు. \"టురాన్స్పర్ గీనా? ఎక్కడికి? ఏ వూరెల్తుండారు?\"",
+   "Domain": "BOOKS"
+  },
+  "IISc_SYSPINProject_te_m_BOCU_00172": {
+   "Transcript": "అఖిల భారత సర్వీసు పరీక్షలను కేంద్ర పబ్లిక్ కమీషన్ ద్వారా నిర్వహిస్తున్న పరీక్షలు అందరూ వ్రాయడానికి అవకాశము కల్పించడము సమాన అవకాశాల రూపకల్పనకు ఒక ఉదాహరణ.",
+   "Domain": "RUNNING TEXT FROM BOOK"
+  },
+  "IISc_SYSPINProject_te_m_GENE_02091": {
+   "Transcript": "ఇటీవల రష్యాకు చెందిన ఓ సోషల్ మీడియా 'సెల్ఫీస్ విత్ డెడ్' పేరుతో ఓ కాంపిటీషన్ కు తెర లేపింది.",
+   "Domain": "GENERAL"
+  },
+  "IISc_SYSPINProject_te_m_BOOK_00475": {
+   "Transcript": "ఓం మణి పద్మేహమ్ ! అందాన్ని ఆపడం ఎంత అందం !",
+   "Domain": "BOOKS"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "clips_in_json": 21463,
+  "kept": 2283,
+  "train": 2246,
+  "valid": 37,
+  "hours_kept": 5.026,
+  "rejected": 18920,
+  "reject_reasons": {
+    "missing_wav": 18413,
+    "digits": 412,
+    "chars": 10,
+    "ffmpeg": 85
+  },
+  "domains_selected": {
+    "POLITICS": 206,
+    "FINANCE": 206,
+    "WEATHER": 83,
+    "HEALTH": 85,
+    "EDUCATION": 219,
+    "RUNNING TEXT FROM BOOK": 363,
+    "BOOKS": 1149,
+    "OTHERS": 79,
+    "GENERAL": 143,
+    "AGRICULTURE": 95
+  }
+}

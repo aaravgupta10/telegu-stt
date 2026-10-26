@@ -1,0 +1,126 @@
+# Pilot training log (TRUN-0001), as pasted by the owner (transcript message #140, 2026-10-18T05:51:24.301Z).
+# Notebook `rag`. The log file on the notebook was ~/SageMaker/tts/runs/telugu_pilot/logs/train_20261018-054317.log (not copied here: UNKNOWN whether it still exists).
+
+[ec2-user@ip-REDACTED pocket-tts]$ source ~/SageMaker/tts/env.sh && cd ~/SageMaker/tts/pocket-tts && env -u LD_LIBRARY_PATH uv run python -m training.scripts.convert_tokenizer ~/SageMaker/tts/data/pilot/tokenizer.model --texts ~/SageMaker/tts/data/pilot/valid_aligned.jsonl 2>&1 | tail -8 \
+&& ls -la ~/SageMaker/tts/data/pilot/tokenizer.json \
+&& env -u LD_LIBRARY_PATH uv run python -c "
+import os, yaml
+p='training/configs/telugu_pilot.yaml'
+c=yaml.safe_load(open(p))
+c['model_overrides']['flow_lm.lookup_table.tokenizer_path']=os.path.expanduser('~/SageMaker/tts/data/pilot/tokenizer.json')
+yaml.safe_dump(c,open(p,'w'),sort_keys=False)
+print('tokenizer path set:', c['model_overrides'])
+" \
+&& env -u LD_LIBRARY_PATH uv run training/train.py training/configs/telugu_pilot.yaml 2>&1 | tee -a ~/SageMaker/tts/logs/pilot_train.log
+wrote /home/ec2-user/SageMaker/tts/data/pilot/tokenizer.json (46 texts match sentencepiece exactly)
+-rw-r--r--. 1 ec2-user ec2-user 279227 Oct 18 05:43 /home/ec2-user/SageMaker/tts/data/pilot/tokenizer.json
+tokenizer path set: {'flow_lm.lookup_table.tokenizer_path': '/home/ec2-user/SageMaker/tts/data/pilot/tokenizer.json'}
+[18-10 05:43:17 INFO train] logging to /home/ec2-user/SageMaker/tts/runs/telugu_pilot/logs/train_20261018-054317.log
+[18-10 05:43:17 INFO train] torch 2.14.0+cu130 | cuda (NVIDIA A10G) | world size 1
+[18-10 05:43:17 INFO train] resolved config from training/configs/telugu_pilot.yaml:
+data:
+  train_jsonl: /home/ec2-user/SageMaker/tts/data/pilot/train_aligned.jsonl
+  valid_jsonl: /home/ec2-user/SageMaker/tts/data/pilot/valid_aligned.jsonl
+  max_duration_sec: 30.0
+  max_voice_prompt_sec: 5.0
+  prompt_trim_max_sec: 0.5
+  final_punct_dropout: 0.3
+  shuffle: true
+  loader_procs: 3
+  num_bucket_batches: 5
+  precompute: true
+flow:
+  type: lsd
+  kwargs: {}
+optim:
+  lr: 0.0002
+  weight_decay: 0.1
+  betas:
+  - 0.9
+  - 0.95
+  eps: 1.0e-08
+  max_norm: 1.0
+  warmup_steps: 50
+  schedule: constant
+  lr_min_ratio: 0.0
+  type: adamw
+  muon_lr: 0.005
+  muon_momentum: 0.95
+  muon_head: false
+  muon_rms_match: false
+  muon_polar_steps: 6
+model_config: pocket_tts/config/english_2026-04_24l.yaml
+model_overrides:
+  flow_lm.lookup_table.tokenizer_path: /home/ec2-user/SageMaker/tts/data/pilot/tokenizer.json
+start_from_pretrained: true
+freeze_head: false
+reset_text_embedding: true
+run_dir: /home/ec2-user/SageMaker/tts/runs/telugu_pilot
+batch_size: 16
+grad_accum_steps: 4
+max_steps: 200
+seed: 42
+flow_batch_multiplier: 4
+eos_loss_weight: 0.1
+text_dropout: 0.2
+voice_dropout: 0.2
+stats_ema_steps: 1000
+stats_ema_decay: 0.999
+log_freq: 50
+valid_freq: 100
+compile: true
+num_valid_batches: 50
+sample_sentences:
+- The quick brown fox jumps over the lazy dog.
+- Training is still running; this voice is a work in progress.
+- How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+sample_freq: 10000
+sample_temp: 0.3
+sample_cfg_coef: 2.0
+ckpt_freq: 200
+num_ckpt_keep: 1
+ema_decay: 0.999
+distill_cfg_coef: 0.0
+distill_teacher_config: ''
+distill_teacher_overrides: {}
+distill_teacher_weights: ''
+distill_teacher_use_ema: true
+student_init_from: ''
+[18-10 05:43:17 INFO pocket_tts.modules.text_conditioner] Loading tokenizers json from /home/ec2-user/SageMaker/tts/data/pilot/tokenizer.json
+[18-10 05:43:19 INFO httpx] HTTP Request: HEAD https://huggingface.co/kyutai/pocket-tts/resolve/492522650173a0653b7575cdc25ae09810e5d741/languages/english_2026-04_24l/model.safetensors "HTTP/1.1 302 Found"
+[18-10 05:43:19 INFO httpx] HTTP Request: GET https://huggingface.co/api/models/kyutai/pocket-tts/xet-read-token/492522650173a0653b7575cdc25ae09810e5d741 "HTTP/1.1 200 OK"
+[18-10 05:43:38 INFO training.modules.builders] starting the text embedding from scratch: ['conditioner.embed.weight']
+[18-10 05:43:39 INFO train] precomputing latents for train_aligned.jsonl (one-time)
+[18-10 05:43:47 INFO precompute_latents] train_aligned.jsonl: stitch_frames=35 (noise floor 0.0e+00)
+encode train_aligned.jsonl: 100%|██████████| 71/71 [00:21<00:00,  3.23it/s]
+[18-10 05:44:09 INFO precompute_latents] wrote /home/ec2-user/SageMaker/tts/data/pilot/train_aligned_latents.jsonl and /home/ec2-user/SageMaker/tts/data/pilot/train_aligned_latents.meta.json
+[18-10 05:44:09 INFO train] flow_lm + objective: 316.0M trainable params
+[18-10 05:44:22 INFO train] starting training loop, first step can take a few minutes (compilation etc.)
+/home/ec2-user/SageMaker/tts/pocket-tts/.venv/lib/python3.10/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[18-10 05:45:14 INFO train] first step took 52s, including compilation
+[18-10 05:45:14 INFO train] step 1 | lr 4.00e-06 | grad 0.92 | 0.02 it/s | {'flow_diag': '21.1847', 'flow_distill': '0.2681', 'flow_loss': '0.5049', 'eos_loss': '0.1499', 'loss': '0.5199'}
+[18-10 05:45:15 INFO train] step 2 | lr 8.00e-06 | grad 0.53 | 1.25 it/s | {'flow_diag': '20.6256', 'flow_loss': '0.4834', 'eos_loss': '0.0633', 'loss': '0.4897'}
+[18-10 05:45:15 INFO train] step 3 | lr 1.20e-05 | grad 0.51 | 1.33 it/s | {'flow_diag': '20.4559', 'flow_loss': '0.4794', 'eos_loss': '0.0762', 'loss': '0.4871'}
+[18-10 05:45:16 INFO train] step 4 | lr 1.60e-05 | grad 0.87 | 1.05 it/s | {'flow_diag': '20.3192', 'flow_loss': '0.4762', 'eos_loss': '0.1135', 'loss': '0.4876'}
+[18-10 05:45:17 INFO train] step 5 | lr 2.00e-05 | grad 0.76 | 1.20 it/s | {'flow_diag': '19.7722', 'flow_loss': '0.4634', 'eos_loss': '0.0585', 'loss': '0.4693'}
+[18-10 05:45:18 INFO train] step 6 | lr 2.40e-05 | grad 0.57 | 1.49 it/s | {'flow_diag': '19.3351', 'flow_loss': '0.4531', 'eos_loss': '0.0410', 'loss': '0.4572'}
+[18-10 05:45:19 INFO train] step 7 | lr 2.80e-05 | grad 0.80 | 1.33 it/s | {'flow_diag': '19.3131', 'flow_distill': '0.3394', 'flow_loss': '0.4632', 'eos_loss': '0.0370', 'loss': '0.4669'}
+[18-10 05:45:19 INFO train] step 8 | lr 3.20e-05 | grad 0.77 | 1.26 it/s | {'flow_diag': '19.2342', 'flow_loss': '0.4508', 'eos_loss': '0.0372', 'loss': '0.4545'}
+[18-10 05:45:20 INFO train] step 9 | lr 3.60e-05 | grad 1.19 | 1.01 it/s | {'flow_diag': '18.5186', 'flow_distill': '0.3504', 'flow_loss': '0.4448', 'eos_loss': '0.0176', 'loss': '0.4466'}
+[18-10 05:45:21 INFO train] step 10 | lr 4.00e-05 | grad 0.76 | 0.95 it/s | {'flow_diag': '18.2038', 'flow_loss': '0.4266', 'eos_loss': '0.0126', 'loss': '0.4279'}
+[18-10 05:45:21 INFO train] per-step logging done, logging every 50 steps from now on
+[18-10 05:46:02 INFO train] step 50 | lr 2.00e-04 | grad 1.03 | 0.99 it/s | {'flow_diag': '17.1662', 'flow_loss': '0.4007', 'eos_loss': '0.0039', 'loss': '0.4011'}
+[18-10 05:46:44 INFO train] step 100 | lr 2.00e-04 | grad 1.02 | 1.19 it/s | {'flow_diag': '16.3407', 'flow_loss': '0.3778', 'eos_loss': '0.0092', 'loss': '0.3788'}
+[18-10 05:46:44 INFO training.dataloader.manifest] indexed 37 entries from /home/ec2-user/SageMaker/tts/data/pilot/valid_aligned.jsonl (rank 0/1)
+[18-10 05:47:04 INFO train] valid @ step 100: {'flow_diag': '16.6822', 'flow_distill': '0.3737', 'flow_loss': '0.3853', 'eos_loss': '0.0110', 'loss': '0.3864'}
+[18-10 05:47:47 INFO train] step 150 | lr 2.00e-04 | grad 0.75 | 0.80 it/s | {'flow_diag': '15.3066', 'flow_loss': '0.3495', 'eos_loss': '0.0015', 'loss': '0.3496'}
+[18-10 05:48:35 INFO train] step 200 | lr 2.00e-04 | grad 1.05 | 1.03 it/s | {'flow_diag': '15.1253', 'flow_loss': '0.3414', 'eos_loss': '0.0030', 'loss': '0.3417'}
+[18-10 05:48:35 INFO training.dataloader.manifest] indexed 37 entries from /home/ec2-user/SageMaker/tts/data/pilot/valid_aligned.jsonl (rank 0/1)
+[18-10 05:48:52 INFO train] valid @ step 200: {'flow_diag': '16.7778', 'flow_distill': '0.3734', 'flow_loss': '0.3759', 'eos_loss': '0.0175', 'loss': '0.3776'}
+[18-10 05:48:59 INFO training.checkpointing] saved /home/ec2-user/SageMaker/tts/runs/telugu_pilot/checkpoint_00000200.pt
+[18-10 05:49:08 INFO training.checkpointing] exported pocket-tts weights to /home/ec2-user/SageMaker/tts/runs/telugu_pilot/model.safetensors
+[18-10 05:50:14 INFO training.checkpointing] saved /home/ec2-user/SageMaker/tts/runs/telugu_pilot/checkpoint_00000200.pt
+[18-10 05:50:25 INFO training.checkpointing] exported pocket-tts weights to /home/ec2-user/SageMaker/tts/runs/telugu_pilot/model.safetensors
+[18-10 05:50:25 INFO train] peak GPU memory 15.9 GiB
+[18-10 05:50:25 INFO train] done

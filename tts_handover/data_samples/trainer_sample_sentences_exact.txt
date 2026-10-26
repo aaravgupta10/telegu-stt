@@ -1,0 +1,4 @@
+# The 3 sentences Kyutai's trainer synthesised at every 2,500 steps (from args.yaml sample_sentences). Chosen by run_pipeline.sh/hand-run config script from valid.jsonl (40-90 characters, no digits); they are validation transcripts.
+అలాగే ఆ సీన్ ఓ రూంలో జరుగుతుంటే కెమెరా, టెక్నీషియన్స్ అంతా మరో రూంలో కూర్చొని షూట్ చేసారు.
+ఆ రాత్రి హాస్టల్ కాంపౌండ్లో డిన్నర్. సరదాగా సాగుతోంది. మా ప్రిన్సిపాల్ చాలా మంచి ముసలాయన.
+పార్లమెంటు సభ్యుల చొరవవల్ల కొంతమంది ఉన్నత అధికారులను తమ పదవులనుండి తొలగించవచ్చు.

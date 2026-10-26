@@ -1,0 +1,18 @@
+# Rasa Telugu (ai4bharat/Rasa, Telugu/train-00000-of-00056.parquet): schema, row count of this shard and the first two rows (audio shown as byte counts).
+# As pasted by the owner, transcript user message #172, 2026-10-18T07:22:46.105Z.
+
+filename: string
+text: string
+language: string
+gender: string
+style: string
+duration: string
+wav_path: string
+audio: struct<bytes: binary, path: string>
+  child 0, bytes: binary
+  child 1, path: string
+-- schema metadata --
+huggingface: '{"info": {"features": {"filename": {"dtype": "string", "_ty' + 342
+rows in this shard: 489
+{'filename': 'TEL_F_WIKI_01212', 'text': 'ఏదేమైనా, పొగచూరిన పంది మాంసాన్ని పులియబెట్టిన సోయాబీన్తో వండిన వంటకం ఈ రాష్ట్ర వంటకం.', 'language': 'Telugu', 'gender': 'Female', 'style': 'WIKI', 'duration': '6.578', 'wav_path': '/data/TTS/ttsteam/datasets/rasa_hf/data_20251203/Telugu/Female/wavs/TEL_F_WIKI_01212.wav', 'audio': {'bytes': '631532 bytes', 'path': 'TEL_F_WIKI_01212.wav'}}
+{'filename': 'TEL_F_WIKI_01359', 'text': 'అంటే మీకు అన్ని కూడా భోజనం, మధ్యాహ్నం భోజనం పథకాలని అమ్మఒడి వసతి దివేన ఇలాంటివన్నీ పడుతున్నాయి కదండి, విద్య దీవెన గవర్నమెంట్ నుంచి మంచి ఫ్యాకల్టీ కూడా ఉందండి, టీచర్లు కూడా మంచి వాళ్లు బాగా చెప్తారు.', 'language': 'Telugu', 'gender': 'Female', 'style': 'WIKI', 'duration': '14.655', 'wav_path': '/data/TTS/ttsteam/datasets/rasa_hf/data_20251203/Telugu/Female/wavs/TEL_F_WIKI_01359.wav', 'audio': {'bytes': '1406924 bytes', 'path': 'TEL_F_WIKI_01359.wav'}}
